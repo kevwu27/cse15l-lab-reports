@@ -5,8 +5,7 @@ This page will detail how to remotely access *ieng6* (computers in CS) on your p
 ## Step 1: Set Up
 First download VSCode on your computer or open VSCode if you already have it. I already have VSCode, so I did not need to download it. However, if you need to download it, make sure to download the correct version according to your computer system (i.e. Windows or MacOC).
 
-  >If you need to download VSCode, click this link:
-  >[Link]( https://code.visualstudio.com/)
+  >If you need to download VSCode, click this [link]( https://code.visualstudio.com/).
   >Then, open VSCode.
   
   Refer to Image Below for how VSCode should look when opened:
