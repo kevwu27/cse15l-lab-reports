@@ -10,6 +10,7 @@ First download VSCode on your computer or open VSCode if you already have it. I 
   >Then, open VSCode.
   
   Refer to Image Below for how VSCode should look when opened:
+  
   *Note: Your VSCode may slightly differ, or have less file names on it. I have used VSCode before, which is why it shows my history of files.*
 <img width="1440" alt="Screenshot 2023-01-12 at 10 20 15 AM" src="https://user-images.githubusercontent.com/115754187/212161406-460f2aac-47e6-4c19-a600-cd0d56e3a215.png">
 
@@ -24,6 +25,7 @@ Next, I connected to the remote servers.
   4. I typed in `ssh cs15lwi23age@ieng6.ucsd.edu` into the terminal. (This command is user specific)
   5. It prompted me to authenticate connecting, so I typed in *Yes*. Then I entered my password in and pressed enter.
   6. The following message should appear: 
+
   <img width="595" alt="Screenshot 2023-01-12 at 11 32 48 AM" src="https://user-images.githubusercontent.com/115754187/212163530-a2dc1b04-3378-46b1-bf28-df1d12f69317.png">
   
 Now, I am remotely connected to the servers in the CSE basement!
@@ -48,4 +50,5 @@ The following results appeared in my terminal:
 To exit out of the servers, I pressed *Control+D* on my computer and typed *exit* into the terminal.
   
 
+## END
 
