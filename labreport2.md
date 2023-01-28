@@ -5,7 +5,7 @@ This page discusses the processes of starting a web server and analysis of bugs.
 ## Part 1 StringServer:
 ### StringServer Code:
 
-*Code for StringServer method*
+*Code for StringServer main method*
 
 <img width="625" alt="Screenshot 2023-01-27 at 11 34 59 AM" src="https://user-images.githubusercontent.com/115754187/215181224-0e5fa31a-8dda-4067-9868-bc6c5d64251b.png">
 
@@ -126,7 +126,7 @@ static List<String> merge(List<String> list1, List<String> list2) {
         assertArrayEquals(new String[]{"apple", "book", "dog", "evening", "hello"}, ListExamples.merge(list1, list2).toArray());
     }
 ```
-  > This fails because there are more than two items in list two. The second item in the list2, "evening," will never get appended to the new list due to the infinite loop.
+  > This fails because there are more than two items in list two. The second item in the list2, "hello," will never get appended to the new list due to the infinite loop.
 
 **Non-Failure-Inducing Input (JUnit Test):**
 (This is within ListTests.java file)
