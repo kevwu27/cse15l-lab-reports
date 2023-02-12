@@ -95,6 +95,8 @@ Our now familiar liter of gas particles at room temperature comes to equilibrium
   
 **Example 1:**
 * -C3 is three lines before and after
+
+
 ```
 $ grep -C3 "Lucayans" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 A Brief History
@@ -108,6 +110,8 @@ In 1648 a group of English Puritans from Bermuda, led by William Sayle, sailed t
 
 **Example 2:**
 * -C1 is one line before and after
+
+
 ```
 $ grep -C1 "femtosecond" ./written_2/non-fiction/OUP/Kauffman/ch7.txt
 Consider the number of possible proteins of length . That is, we consider proteins made of the familiar kinds of standard encoded amino acids and, thus, linear chains of such amino acids. Since there are choices at each of positions, the number of possible proteins of length is raised to the th power, or approximately raised to the th power, . Now let’s consider the estimated number of particles in the known universe, which is . Thus, the maximum number of pairwise collisions that could occur in any instant, ignoring distances between particles, is that number squared, or . A fast reaction occurs in a femtosecond, or one part in seconds. Then the number of pairwise collisions and reactions that can have occurred since the estimated time of the big bang fourteen billion years ago is times the number of femtoseconds since the big bang, which is about .
