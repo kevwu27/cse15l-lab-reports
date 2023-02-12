@@ -46,6 +46,8 @@ $ grep -c "femtosecond" ./written_2/non-fiction/OUP/Kauffman/*.txt
   This command prints out the line and corresponding line numbers in the file that contain the given pattern (-n). It also colors the given pattern
   in the output to make it stand out (--colour).
   Command is taken from terminal manual for grep (man grep).
+  
+  * Color does not show in code block, but it was red in the terminal
 
 **Example 1:**
 ```
@@ -92,6 +94,7 @@ Our now familiar liter of gas particles at room temperature comes to equilibrium
   Command is taken from [here](https://www.geeksforgeeks.org/grep-command-in-unixlinux/).
   
 **Example 1:**
+* -C3 is three lines before and after
 ```
 $ grep -C3 "Lucayans" ./written_2/travel_guides/berlitz2/Bahamas-History.txt
 A Brief History
@@ -104,15 +107,12 @@ In 1648 a group of English Puritans from Bermuda, led by William Sayle, sailed t
 ```
 
 **Example 2:**
+* -C1 is one line before and after
 ```
 $ grep -C1 "femtosecond" ./written_2/non-fiction/OUP/Kauffman/ch7.txt
-Consider the number of possible proteins of length . That is, we consider proteins made of the familiar kinds of standard encoded amino acids and, thus, linear chains of such amino acids. Since there are choices at each of positions, the number of possible proteins of length is raised to the th power, or approximately raised to the th power, .
-Now let’s consider the estimated number of particles in the known universe, which is . Thus, the maximum number of pairwise collisions that could occur in any instant, ignoring distances between particles, is that number squared, or . A fast reaction occurs in a femtosecond, or one part in seconds. Then the number of pairwise collisions and reactions that can have occurred since the estimated time of the big bang fourteen billion years ago is times the number of femtoseconds since the big bang, which is about .
+Consider the number of possible proteins of length . That is, we consider proteins made of the familiar kinds of standard encoded amino acids and, thus, linear chains of such amino acids. Since there are choices at each of positions, the number of possible proteins of length is raised to the th power, or approximately raised to the th power, . Now let’s consider the estimated number of particles in the known universe, which is . Thus, the maximum number of pairwise collisions that could occur in any instant, ignoring distances between particles, is that number squared, or . A fast reaction occurs in a femtosecond, or one part in seconds. Then the number of pairwise collisions and reactions that can have occurred since the estimated time of the big bang fourteen billion years ago is times the number of femtoseconds since the big bang, which is about .
 The total number of reactions on a femtosecond timescale cannot be larger than , a very very big number. But is infinitesimally small compared to the number of possible proteins of length , namely, . In short, the known universe has not had time since the big bang to create all possible proteins of length once. Indeed the time required to create all possible proteins at least once is at least the ratio of possible proteins to the maximum number of reactions that can have occurred in the lifetime of the universe, or times the lifetime of the universe.
-Let that sink in. It would take at least to the th times the current lifetime of the universe for the universe to manage to make all possible proteins of length at least once. Obviously, with respect to proteins of length the universe is vastly nonergodic. It cannot have equilibrated over all these possible dierent molecules.
-At a level of complexity above atomic nuclei, once into the realm of complex molecules, the universe will not, cannot, come to equilibrium, on vastly long timescales compared to its historical age. Indeed, the giant cold molecular clouds in galaxies, about degrees absolute in temperature, are highly complex mixtures of molecular species, many carbonaceous, as well as the birthplace of stars. We will return in a moment to wonder about whether a galaxy, considered as a closed thermodynamic system, reaches equilibrium chemically.
-What about the arbitrary restriction to a femtosecond? The fastest known timescale is the Planck timescale, one in to the rd parts of a second, or seconds. At the Planck timescale, therefore, the universe can have created at most proteins of length compared to such proteins. It would take the known universe, chunking along on the Planck timescale, times its current lifetime to make all proteins of length .
-Now many biological proteins are of length , or even amino acids. Hence the number of possible proteins of length does its now familiar hyperastronomical combinatorial explosion to or . The universe can have managed to make to the of these at the Planck timescale.
+Let that sink in. It would take at least to the th times the current lifetime of the universe for the universe to manage to make all possible proteins of length at least once. Obviously, with respect to proteins of length the universe is vastly nonergodic. It cannot have equilibrated over all these possible dierent molecules. At a level of complexity above atomic nuclei, once into the realm of complex molecules, the universe will not, cannot, come to equilibrium, on vastly long timescales compared to its historical age. Indeed, the giant cold molecular clouds in galaxies, about degrees absolute in temperature, are highly complex mixtures of molecular species, many carbonaceous, as well as the birthplace of stars. We will return in a moment to wonder about whether a galaxy, considered as a closed thermodynamic system, reaches equilibrium chemically. What about the arbitrary restriction to a femtosecond? The fastest known timescale is the Planck timescale, one in to the rd parts of a second, or seconds. At the Planck timescale, therefore, the universe can have created at most proteins of length compared to such proteins. It would take the known universe, chunking along on the Planck timescale, times its current lifetime to make all proteins of length . Now many biological proteins are of length , or even amino acids. Hence the number of possible proteins of length does its now familiar hyperastronomical combinatorial explosion to or . The universe can have managed to make to the of these at the Planck timescale.
 ```
 
 ---
