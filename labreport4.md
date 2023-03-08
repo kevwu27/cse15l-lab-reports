@@ -55,5 +55,7 @@ In the terminal, I typed `git add ListExamples.java` to add the file to the list
 Then, I typed `git commit -m "Updated"` to commit the changes to GitHub with the message "Updated".
 Finally, I typed `git push origin main` to push the changes to the forked repository from the remote server.
  
- ----
- # END
+
+---
+## END
+
