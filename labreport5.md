@@ -71,7 +71,9 @@ I had on my account previously.
 
 
 After forking the repository, I made sure to copy the SSH link for it. It's important to copy the SSH link because I will be on the remote server, 
-not my local device. Make sure that you have the link copied so that you can paste it quickly. 
+not my local device. Because I have previously set up a SSH key on the ieng6 machine for GitHub, I will not be prompted to enter my password.
+I can easily bypass GitHub authentication and shave off some time. 
+Make sure that you have the link copied so that you can paste it quickly. 
 
 ![Screenshot 2023-03-09 at 7 49 06 PM](https://user-images.githubusercontent.com/115754187/224218819-b1c2f21e-c95c-4044-85a5-22df545bd33a.jpeg)
 
