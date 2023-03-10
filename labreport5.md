@@ -79,7 +79,7 @@ Make sure that you have the link copied so that you can paste it quickly.
 
 
 Now we can begin the tasks and start timing ourselves.
-* Go in the terminal for VSCode where you have the bash scripts saved and type `setup.sh`. This will log you into the ieng6 machine and copy over the task.sh script. 
+* Go in the terminal for VSCode where you have the bash scripts saved and type `bash setup.sh`. This will log you into the ieng6 machine and copy over the task.sh script. 
 * Once logged in, type in `bash task.sh <CNTRL> + <V>` to paste in the link to the repository that you copied.
 * All tasks should run properly! 
 
